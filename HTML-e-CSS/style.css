@@ -153,3 +153,45 @@ html {
   color: var(--fonte-cor-base);
   font-weight: var(--fonte-peso-texto);
 }
+
+/* Conteúdo vagas */
+
+.vagasAbertas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  padding: 8rem 0;
+}
+
+.vagasAbertas__conteudo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.vagasAbertas__titulo {
+  border-style: none;
+  border-radius: 1rem;
+  padding: 0.25rem 0.75rem;
+  color: var(--vermelho-principal);
+  background: rgba(142, 36, 36, 0.05);
+  font-size: 0.875rem;
+  font-family: var(--fonte-principal);
+  font-weight: var(--fonte-peso-titulo);  
+}
+
+.vagasAbertas__talentos {
+  font-size: 2.25rem;
+  font-weight: var(--fonte-peso-titulo-maior);
+  color: var(--fonte-cor-titulo);
+}
+
+.vagasAbertas>p {
+  font-size: 1.25rem;
+  color: var(--fonte-cor-base);
+  font-weight: var(--fonte-peso-texto);
+}
