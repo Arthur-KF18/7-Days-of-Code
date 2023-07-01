@@ -25,7 +25,7 @@ html {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 3rem;
+  padding: 3rem 6rem;
   margin-bottom: 2rem;
 }
 
@@ -162,7 +162,7 @@ html {
   justify-content: center;
   align-items: center;
   gap: 3rem;
-  padding: 8rem 0;
+  padding: 6rem 0;
 }
 
 .vagasAbertas__conteudo {
@@ -194,4 +194,45 @@ html {
   font-size: 1.25rem;
   color: var(--fonte-cor-base);
   font-weight: var(--fonte-peso-texto);
+}
+
+/* Vagas */
+
+.Vaga {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  padding:  2rem;
+}
+
+.Vaga__titulo {
+  font-size: 1.25rem;
+  font-weight: var(--fonte-peso-titulo);
+  width: 40vw;
+  padding: 1rem;
+}
+
+.vagas {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 1.5rem 1.75rem 1.5rem;
+  gap: 2rem;
+  border: 1px solid var(--cinza-trabalhos);
+  border-radius: 1rem;
+  width: 40vw;
+}
+
+.vagas__titulo {
+  font-size: 1.125rem;
+  font-weight: var(--fonte-peso-titulo);
+}
+
+.vagas__descricao {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  color: var(--fonte-cor-base);
+  font-weight: var(--fonte-peso-titulo);
 }
