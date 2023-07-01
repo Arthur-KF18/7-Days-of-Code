@@ -1,0 +1,84 @@
+:root {
+  --fonte-principal: 'Inter', sans-serif;
+  --fonte-peso-texto: 400;
+  --fonte-peso-titulo: 500;
+  --fonte-peso-titulo-maior: 600;
+  --fonte-tamanho-base: 1rem;
+
+  --cor-fundo: #F2F2F2;
+  --vermelho-principal: #8E2424;
+  --cinza-trabalhos: #EAECF0;
+  --cinza-copy: #98A2B3;
+  --cinza-footer: #F9FAFB;
+  --fonte-cor-base: #667085;
+  --fonte-cor-titulo: #101828;
+}
+
+html {
+  font-family: var(--fonte-principal);
+  font-size: var(--fonte-tamanho-base);
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 3rem;
+}
+
+.cabecalhoSecao {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.cabecalho__logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0 2rem;
+}
+
+.cabecalho__secao {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 0 2rem;
+}
+
+.cabecalho__secao>li {
+  font-weight: var(--fonte-peso-titulo);
+  color: var(--fonte-cor-base)
+}
+
+.cabecalho__login {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.cabecalho__login>h1 {
+  color: var(--fonte-cor-base);
+}
+
+.cabecalho__login--cadastrar {
+  border-style: none;
+  border-radius: 0.5rem;
+  background-color: var(--vermelho-principal);
+  color: var(--cor-fundo);
+  font-family: var(--fonte-principal);
+  font-weight: var(--fonte-peso-titulo);
+  font-size: var(--fonte-tamanho-base);
+  padding: 0.6rem 1.1rem;
+}
+
+
